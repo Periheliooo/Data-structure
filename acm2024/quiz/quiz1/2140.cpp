@@ -22,8 +22,8 @@ int main() {
     cin >> s;
     cin >> t;
     int n = s.length(), m = t.length();
-    int* next = new int[n];
-    build_next(s, next);
+    int* next = new int[m];
+    build_next(t, next);
 
     int i = 0, j = 0;
     while (i < n) {
